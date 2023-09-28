@@ -1751,7 +1751,7 @@ input::placeholder {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 450px) {
   .intro-excerpt {
     margin: 0px 10px
   }
@@ -1797,19 +1797,18 @@ input::placeholder {
   }
   .row-1 {
     margin-top: 60px;
-    display: block;
+    display: flex;
     text-align: center;
-    justify-content: center;  
-    margin-left: 25px;
   }
   .etiqueta {
-    padding: 150px;
+    padding: 115px;
     margin: -70px;
     background-image: url(../images/etiqueta-verde.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 150px;
     height: 150px;
+    text-align: center;
   }
   .etiqueta-text {
     font-size: 50px;
@@ -2368,10 +2367,12 @@ input::placeholder {
   }
 
   .h3-disenadoras-shop {
+    padding-top: 30px;
     font-family: "altoadige";
     font-weight: 1000;
     font-size: 35px;
     color: #255787;
+    padding-bottom: 100px;
   }
 
   .p-disenadoras-shop {
