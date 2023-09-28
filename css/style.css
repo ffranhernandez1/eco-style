@@ -1776,9 +1776,9 @@ input::placeholder {
     padding: 5px 10px;
   }
   .fondo-inicio {
-    background-image: url("../images/fondo-nuevo.jpg");
+    background-image: url("../images/fondo-mobile.jpg");
     background-repeat: none;
-    height: 500px;
+    height: 700px;
   }
   .moda-2 {
     font-size: 15px;
@@ -2465,7 +2465,8 @@ input::placeholder {
 
 @media (max-width: 599px) and (min-width: 401px){
   .intro-excerpt {
-    margin: 0px 20px
+    margin: 0px 20px;
+    
   }
   .h1-hero {
     margin-top: 0px;
@@ -3061,5 +3062,10 @@ input::placeholder {
   .btn-sub-1 {
     margin: 0px;
     font-size: 16px;
+  }
+  .fondo-inicio {
+    background-image: url("../images/fondo-mobile.jpg");
+    background-repeat: none;
+    height: 700px;
   }
 }
